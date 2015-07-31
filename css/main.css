@@ -1,0 +1,19 @@
+a {
+  text-decoration: none;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+#logo {
+  text-align: left;
+  margin: 0;
+}
+
+#bio {
+  text-align: left;
+  margin: 0;
+}
