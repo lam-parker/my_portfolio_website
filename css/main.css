@@ -13,12 +13,13 @@ a {
 }
 
 #logo {
-  text-align: left;
+  text-align: center;
   margin: 0;
+
 }
 
 #bio {
-  text-align: left;
+  text-align: center;
   margin: 0;
 }
 
