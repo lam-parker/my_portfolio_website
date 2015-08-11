@@ -23,13 +23,20 @@ a {
   margin: 0;
 }
 
+nav {
+  background:#140460;
+}
 
-
+nav a, nav a:visited {
+  color: #fff;
+}
 /*********************************
 HEADING
 *********************************/
 
 header {
+  background: #4731b2;
+  border-color: #140460;
   float: left;
   margin: 0 0 30px 0;
   padding: 5px 0 0 0;
@@ -37,9 +44,19 @@ header {
 
 }
 
+h1, h2 {
+  color: #fff
+
+}
+
 
 /*********************************
 COLORS
 *********************************/
+
+a {
+  color:#4731b2;
+
+}
 /*  site body  */
 /*  header  */
