@@ -2,20 +2,25 @@
 GENERAL
 *********************************/
 
-a {
-  text-decoration: none;
-}
-
 #wrapper {
   max-width: 940px;
   margin: 0 auto;
   padding: 0 5%;
 }
 
+a {
+  text-decoration: none;
+}
+
+
+
+/*********************************
+HEADING
+*********************************/
+
 #logo {
   text-align: center;
   margin: 0;
-
 }
 
 #bio {
@@ -23,26 +28,19 @@ a {
   margin: 0;
 }
 
-nav {
-  background:#36068f;
-}
 
-nav a, nav a:visited {
-  color: #fff;
-}
 
-nav a.selected, nav a:hover {
-  color: #0f034d;
-}
+/*********************************
+COLORS
+*********************************/
 
+/*  site body  */
 body {
   background-color: #fff;
   color: #999;
 }
-/*********************************
-HEADING
-*********************************/
 
+/*  purple header  */
 header {
   background: #52289e;
   border-color: #36068f;
@@ -50,22 +48,29 @@ header {
   margin: 0 0 30px 0;
   padding: 5px 0 0 0;
   width: 100%
-
 }
 
+/*  nav background on mobile  */
+nav {
+  background:#36068f;
+}
+
+/*  logo text  */
 h1, h2 {
   color: #fff
-
 }
 
-
-/*********************************
-COLORS
-*********************************/
-
+/*  links  */
 a {
   color:#52289e;
-
 }
-/*  site body  */
-/*  header  */
+
+/*  nav link  */
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/*  selected nav link  */
+nav a.selected, nav a:hover {
+  color: #0f034d;
+}
