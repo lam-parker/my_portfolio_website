@@ -4,6 +4,7 @@ GENERAL
 
 body {
   font-family: 'PT Sans', sans-serif;
+  background-color: orange;
 }
 
 #wrapper {
@@ -26,16 +27,29 @@ img {
 HEADING
 *********************************/
 
-#logo {
-  text-align: left;
+#logo1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
   margin: 0;
+}
+
+#logo2 {
+  font-size: 20px;
+  font-style: italic;
+  color: #000;
+  text-align: center;
+  margin: 0;
+  border-bottom: 1px solid #ddd;
 }
 
 h1 {
   font-family: 'PT Sans', sans-serif;
+  font-style: bold;
   margin: 15px 0;
-  font-size: 1.7em;
-  line-height: 0.8em;
+  font-size: 0.75em;
+  margin: -5px 0 0;
 }
 
 h2 {
@@ -50,8 +64,9 @@ h3 {
 }
 
 #bio {
-  text-align: center;
-  margin: 0;
+  text-align: left;
+  margin: 33px 152px;
+  color: #000;
 }
 
 
@@ -61,11 +76,27 @@ NAVIGATION
 *********************************/
 
 nav {
-  text-align: center;
-  padding: 10px 0;
-  margin: 20px 0 0;
+  text-align: right;
+  padding: 10px 30px;
+  margin: 22px 5px 4px;
 }
 
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-size: 17px;
+  font-weight: 700;
+  padding: 15px 10px;
+
+}
 
 
 /*********************************
@@ -73,10 +104,10 @@ FOOTER
 *********************************/
 
 footer {
-  font-size: 0.75em;
+  font-size: 15px;
   text-align: center;
   padding-top: 50px;
-  color: #ccc;
+  color: #555556;
 }
 
 
@@ -104,7 +135,7 @@ CONTACT INFORMATION
 }
 
 .infolink {
-  color: #fff;
+  color: #555556;
   float: left;
   margin: -25px 60px;
 
@@ -124,27 +155,27 @@ body {
 
 /*  purple header  */
 header {
-  background: #52289e;
-  border-color: #36068f;
+  background: #345ea7;
+  border-color: #140460;
   float: left;
-  margin: 0 0 30px 0;
+  margin: -23px 0 30px 0;
   padding: 5px 0 0 0;
-  width: 100%
+  width: 100%;
 }
 
 /*  nav background on mobile  */
 nav {
-  background:#36068f;
+  background:#140460;
 }
 
 /*  logo text  */
 h1, h2 {
-  color: #fff
+  color: #000
 }
 
 /*  links  */
 a {
-  color:#52289e;
+  color:#345ea7;
 }
 
 /*  nav link  */
@@ -154,5 +185,9 @@ nav a, nav a:visited {
 
 /*  selected nav link  */
 nav a.selected, nav a:hover {
-  color: #0f034d;
+  color: #345ea7;
+}
+
+.row {
+  max-width: 100%
 }
