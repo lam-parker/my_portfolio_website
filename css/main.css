@@ -4,6 +4,7 @@ GENERAL
 
 body {
   font-family: 'PT Sans', sans-serif;
+  background-color: orange;
 }
 
 #wrapper {
@@ -94,7 +95,10 @@ nav a {
   font-size: 17px;
   font-weight: 700;
   padding: 15px 10px;
+}
 
+.row {
+  max-width: 100%
 }
 
 
@@ -137,6 +141,7 @@ CONTACT INFORMATION
   color: #555556;
   float: left;
   margin: -25px 60px;
+  min-width: 200px;
 
 }
 
@@ -187,6 +192,16 @@ nav a.selected, nav a:hover {
   color: #345ea7;
 }
 
-.row {
-  max-width: 100%
+
+
+/*********************************
+EXPERIENCE AND EDUCATION TIMELINE
+*********************************/
+/*  year  */
+.timeline {
+  background-color: #555556;
+  color: #555556;
+  border-width: 3px 7px 0px 3px;
+  border-style: solid;
+  border-radius: 50% 50% 0% 50%;
 }
