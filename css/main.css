@@ -97,9 +97,6 @@ nav a {
   padding: 15px 10px;
 }
 
-.row {
-  max-width: 100%
-}
 
 
 /*********************************
@@ -142,7 +139,6 @@ CONTACT INFORMATION
   float: left;
   margin: -25px 60px;
   min-width: 200px;
-
 }
 
 
@@ -197,11 +193,29 @@ nav a.selected, nav a:hover {
 /*********************************
 EXPERIENCE AND EDUCATION TIMELINE
 *********************************/
+
 /*  year  */
 .timeline {
   background-color: #555556;
   color: #555556;
   border-width: 3px 7px 0px 3px;
   border-style: solid;
-  border-radius: 50% 50% 0% 50%;
+}
+
+
+
+/*********************************
+DESIGN SKILLS
+*********************************/
+.designskills {
+  color: #555556;
+  float: left;
+  margin: -25px 60px;
+  min-width: 200px;
+}
+
+.row6 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
