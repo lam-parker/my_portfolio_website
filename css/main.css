@@ -234,6 +234,7 @@ EXPERIENCE AND EDUCATION TIMELINE
 /*********************************
 DESIGN SKILLS
 *********************************/
+
 .designskills {
   color: #555556;
   float: left;
@@ -241,8 +242,44 @@ DESIGN SKILLS
   min-width: 200px;
 }
 
+
+
+/*********************************
+OTHER DESIGN SKILLS
+*********************************/
+
 .row6 {
+  margin: 0;
+  padding: 5% 0 0 30%;
+  list-style: none;
+}
+
+#odskills {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+#odskills li {
+  float: none;
+  width: 38px;
+  margin: 10px;
+}
+
+
+
+/*********************************
+COMPUTER LANGUAGES
+*********************************/
+
+#cl {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#cl li {
+  float: none;
+  width: 38px;
+  margin: 10px;
 }
