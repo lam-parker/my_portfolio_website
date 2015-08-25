@@ -4,7 +4,6 @@ GENERAL
 
 body {
   font-family: 'PT Sans', sans-serif;
-  background-color: orange;
 }
 
 #wrapper {
@@ -75,6 +74,26 @@ h3 {
 NAVIGATION
 *********************************/
 
+.navbar-static-top {
+  margin-bottom: 19px;
+  border-width: 0 0 1px;
+}
+
+/*
+.container {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+*/
+/*
+
 nav {
   text-align: right;
   padding: 10px 30px;
@@ -96,6 +115,7 @@ nav a {
   font-weight: 700;
   padding: 15px 10px;
 }
+*/
 
 
 
@@ -126,12 +146,6 @@ CONTACT INFORMATION
   float: none;
   width: 38px;
   margin: 10px;
-  background-color: #555556;
-  color: #555556;
-  border-width: 3px 7px 0px 3px;
-  border-style: solid;
-  border-radius: 50% 50% 0% 50%;
-
 }
 
 .infolink {
@@ -154,14 +168,14 @@ body {
 }
 
 /*  purple header  */
-header {
-  background: #345ea7;
-  border-color: #140460;
+/*
+.navbar-default {
+  background: #140460;
+  border-color: #345ea7;
   float: left;
-  margin: -23px 0 30px 0;
-  padding: 5px 0 0 0;
   width: 100%;
 }
+*/
 
 /*  nav background on mobile  */
 nav {
