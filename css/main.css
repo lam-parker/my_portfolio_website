@@ -234,6 +234,7 @@ SOFTWARE SKILLS
   margin: 0;
   padding: 0;
   list-style: none;
+  align-content: center;
 }
 
 #ss-gifs li {
