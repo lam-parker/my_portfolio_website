@@ -208,12 +208,11 @@ nav a.selected, nav a:hover {
 EXPERIENCE AND EDUCATION TIMELINE
 *********************************/
 
-/*  year  */
 .timeline {
-  background-color: #555556;
-  color: #555556;
-  border-width: 3px 7px 0px 3px;
-  border-style: solid;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 
@@ -231,7 +230,9 @@ SOFTWARE SKILLS
 }
 
 #ss-gifs {
-  margin: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0;
   list-style: none;
   align-content: center;
