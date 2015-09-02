@@ -234,6 +234,7 @@ SOFTWARE SKILLS
   margin: 0;
   padding: 0;
   list-style: none;
+  align-content: center;
 }
 
 #ss-gifs li {
@@ -252,6 +253,19 @@ DESIGN SKILLS
   color: #818285;
   text-align: center;
   text-shadow: 1px 2px 1px #aaa;
+}
+
+#ds-pngs {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  align-content: center;
+}
+
+#ds-pngs li {
+  float: left;
+  width: 10%;
+  margin: 2.5%;
 }
 
 .designskills {
