@@ -291,22 +291,35 @@ OTHER DESIGN SKILLS
 #title5 {
   font-size: 15px;
   font-weight: 700;
+  line-height: 17px;
   color: #fff;
   text-align: left;
   margin: 0;
-  background-color: rgb(18, 104, 179);
+  padding: 0 10px;
+  border-bottom: 37px solid rgb(18, 104, 179);
+  border-left: 0px solid transparent;
+  border-right: 26px solid transparent;
+  height: 0px;
+  width: 150px;
 }
 
 #odskills {
-  margin: 0;
+  margin: 0 -20px;
   padding: 0;
   list-style: none;
+  max-width: 200px;
 }
 
 #odskills li {
   float: none;
-  width: 38px;
   margin: 10px;
+}
+
+.odskills {
+  color: #555556;
+  float: left;
+  margin: -26px 180px;
+  min-width: 200px;
 }
 
 
@@ -318,22 +331,35 @@ COMPUTER LANGUAGES
 #title6 {
   font-size: 15px;
   font-weight: 700;
+  line-height: 17px;
   color: #fff;
   text-align: left;
   margin: 0;
-  background-color: rgb(16, 130, 65);
+  padding: 0 10px;
+  border-bottom: 37px solid rgb(16, 130, 65);
+  border-left: 0px solid transparent;
+  border-right: 26px solid transparent;
+  height: 0px;
+  width: 150px;
 }
 
 #cl {
-  margin: 0;
+  margin: 0 -20px;
   padding: 0;
   list-style: none;
+  max-width: 200px;
 }
 
 #cl li {
   float: none;
-  width: 38px;
   margin: 10px;
+}
+
+.cl {
+  color: #555556;
+  float: left;
+  margin: -26px 180px;
+  min-width: 200px;
 }
 
 
@@ -343,7 +369,7 @@ FOOTER
 *********************************/
 
 footer {
-  font-size: 15px;
+  font-size: 12px;
   text-align: center;
   clear: both;
   padding-top: 50px;
