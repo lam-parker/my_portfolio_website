@@ -239,11 +239,13 @@ DESIGN SKILLS
 OTHER DESIGN SKILLS
 *********************************/
 
+/*
 .row6 {
   margin: 0;
   padding: 5% 0 0 30%;
   list-style: none;
 }
+*/
 
 #title5 {
   font-size: 15px;
@@ -260,6 +262,7 @@ OTHER DESIGN SKILLS
   width: 150px;
 }
 
+/*
 #odskills {
   margin: 0 -20px;
   padding: 0;
@@ -278,6 +281,7 @@ OTHER DESIGN SKILLS
   margin: -26px 180px;
   min-width: 200px;
 }
+*/
 
 
 
@@ -300,6 +304,7 @@ COMPUTER LANGUAGES
   width: 150px;
 }
 
+/*
 #cl {
   margin: 0 -20px;
   padding: 0;
@@ -318,6 +323,7 @@ COMPUTER LANGUAGES
   margin: -26px 180px;
   min-width: 200px;
 }
+*/
 
 
 
