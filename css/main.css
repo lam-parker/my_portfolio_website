@@ -256,6 +256,13 @@ DESIGN SKILLS
   text-shadow: 1px 2px 1px #aaa;
 }
 
+.ds-title {
+  color: #555556;
+  text-align: center;
+  margin: -50px;
+  padding-bottom: 120px;
+}
+
 #ds-pngs {
   margin: 0;
   padding: 0;
