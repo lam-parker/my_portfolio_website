@@ -98,7 +98,7 @@ CONTACT INFORMATION
 
 #contact {
   margin: 0;
-  padding: 0;
+  padding: 0 20%;
   list-style: none;
 }
 
@@ -169,6 +169,8 @@ EXPERIENCE AND EDUCATION TIMELINE
 /*********************************
 SOFTWARE SKILLS
 *********************************/
+
+/*add a maxwidth to the row class and fix title...it disapears when screen gets resized*/
 
 #title3 {
   font-size: 35px;
