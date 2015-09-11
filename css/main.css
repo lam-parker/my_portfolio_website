@@ -77,7 +77,7 @@ h3 {
 
 .bio {
   text-align: left;
-  margin: 33px 152px;
+  margin: 33px 106px;
   color: #555556;
 }
 
@@ -95,6 +95,10 @@ NAVIGATION
 /*********************************
 CONTACT INFORMATION
 *********************************/
+
+.row2 {
+  padding-bottom: 350px;
+}
 
 #contact {
   margin: 0;
@@ -162,6 +166,7 @@ EXPERIENCE AND EDUCATION TIMELINE
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 85px;
 }
 
 
@@ -171,6 +176,9 @@ SOFTWARE SKILLS
 *********************************/
 
 /*add a maxwidth to the row class and fix title...it disapears when screen gets resized*/
+.row4 {
+  padding-bottom: 250px;
+}
 
 #title3 {
   font-size: 35px;
@@ -178,6 +186,7 @@ SOFTWARE SKILLS
   color: #818285;
   text-align: center;
   text-shadow: 1px 2px 1px #aaa;
+  padding-bottom: 45px;
 }
 
 #ss-gifs {
@@ -206,13 +215,15 @@ DESIGN SKILLS
   color: #818285;
   text-align: center;
   text-shadow: 1px 2px 1px #aaa;
+  padding-bottom: 45px;
 }
 
 .ds-title {
   color: #555556;
+  font-size: 120%;
   text-align: center;
-  margin: -50px;
-  padding-bottom: 120px;
+  margin: -30%;
+  padding-bottom: 250px;
 }
 
 #ds-pngs {
@@ -241,13 +252,11 @@ DESIGN SKILLS
 OTHER DESIGN SKILLS
 *********************************/
 
-/*
 .row6 {
   margin: 0;
-  padding: 5% 0 0 30%;
+  padding: 5% 0 0 20%;
   list-style: none;
 }
-*/
 
 #title5 {
   font-size: 15px;
@@ -255,7 +264,7 @@ OTHER DESIGN SKILLS
   line-height: 17px;
   color: #fff;
   text-align: left;
-  margin: 0;
+  margin: 0 -30px;
   padding: 0 10px;
   border-bottom: 37px solid rgb(18, 104, 179);
   border-left: 0px solid transparent;
@@ -264,9 +273,8 @@ OTHER DESIGN SKILLS
   width: 150px;
 }
 
-/*
 #odskills {
-  margin: 0 -20px;
+  margin: 0 -50px;
   padding: 0;
   list-style: none;
   max-width: 200px;
@@ -283,7 +291,6 @@ OTHER DESIGN SKILLS
   margin: -26px 180px;
   min-width: 200px;
 }
-*/
 
 
 
@@ -306,7 +313,6 @@ COMPUTER LANGUAGES
   width: 150px;
 }
 
-/*
 #cl {
   margin: 0 -20px;
   padding: 0;
@@ -325,7 +331,6 @@ COMPUTER LANGUAGES
   margin: -26px 180px;
   min-width: 200px;
 }
-*/
 
 
 
