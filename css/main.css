@@ -344,13 +344,20 @@ COMPUTER LANGUAGES
 /*********************************
 PROFESSIONAL EXPERIENCE
 *********************************/
-#pos {
+
+#com {
   font-size: 30px;
+}
+
+#pos {
+  font-size: 25px;
 }
 
 #date {
   font-size: 20px;
 }
+
+
 
 /*********************************
 FOOTER
