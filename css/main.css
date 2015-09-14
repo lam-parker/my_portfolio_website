@@ -345,6 +345,11 @@ COMPUTER LANGUAGES
 PROFESSIONAL EXPERIENCE
 *********************************/
 
+#rbutton {
+  font-size: 14px;
+  float: right;
+}
+
 #com {
   font-size: 30px;
 }
