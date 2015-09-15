@@ -4,6 +4,11 @@ GENERAL
 
 body {
   font-family: 'PT Sans', sans-serif;
+/*  padding-top: 70px;*/
+}
+
+.container {
+  max-width: 1000px;
 }
 
 #wrapper {
@@ -18,6 +23,35 @@ a {
 
 img {
   max-width: 100%;
+}
+
+
+
+
+/*********************************
+JUMBOTRON
+*********************************/
+
+.jumbotron {
+
+}
+
+
+
+/*********************************
+CAROUSEL
+*********************************/
+
+.carousel-indicators {
+  bottom: 0;
+}
+
+.carousel-indicators .active {
+  background-color: #222;
+}
+
+.carousel-indicators li {
+   border-color: #222;
 }
 
 
