@@ -7,9 +7,11 @@ body {
 /*  padding-top: 70px;*/
 }
 
+/*
 .container {
   max-width: 1000px;
 }
+*/
 
 #wrapper {
   max-width: 940px;
@@ -33,7 +35,11 @@ JUMBOTRON
 *********************************/
 
 .jumbotron {
+  
+}
 
+.ss-title {
+  text-align: center;
 }
 
 
@@ -94,7 +100,6 @@ h1 {
   font-family: 'PT Sans', sans-serif;
   font-style: bold;
   margin: 15px 0;
-  font-size: 0.75em;
   margin: -5px 0 0;
 }
 
@@ -256,15 +261,8 @@ DESIGN SKILLS
   color: #818285;
   text-align: center;
   text-shadow: 1px 2px 1px #aaa;
+  padding-top: 175px;
   padding-bottom: 45px;
-}
-
-.ds-title {
-  color: #555556;
-  font-size: 120%;
-  text-align: center;
-  margin: -30%;
-  padding-bottom: 250px;
 }
 
 #ds-pngs {
