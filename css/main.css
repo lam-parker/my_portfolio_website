@@ -35,7 +35,7 @@ JUMBOTRON
 *********************************/
 
 .jumbotron {
-  
+
 }
 
 .ss-title {
@@ -235,21 +235,7 @@ SOFTWARE SKILLS
   padding-bottom: 45px;
 }
 
-#ss-gifs {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  align-content: center;
-}
 
-#ss-gifs li {
-  float: left;
-  width: 10%;
-  margin: 2.5%;
-}
 
 /*********************************
 DESIGN SKILLS
@@ -265,26 +251,6 @@ DESIGN SKILLS
   padding-bottom: 45px;
 }
 
-#ds-pngs {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  align-content: center;
-}
-
-#ds-pngs li {
-  float: left;
-  width: 10%;
-  margin: 2.5%;
-}
-
-.designskills {
-  color: #555556;
-  float: left;
-  margin: 0;
-  min-width: 200px;
-}
-
 
 
 /*********************************
@@ -292,43 +258,8 @@ OTHER DESIGN SKILLS
 *********************************/
 
 .row6 {
-  margin: 0;
-  padding: 5% 0 0 20%;
+  padding: 30% 0 0 20%;
   list-style: none;
-}
-
-#title5 {
-  font-size: 15px;
-  font-weight: 700;
-  line-height: 17px;
-  color: #fff;
-  text-align: left;
-  margin: 0 -30px;
-  padding: 0 10px;
-  border-bottom: 37px solid rgb(18, 104, 179);
-  border-left: 0px solid transparent;
-  border-right: 26px solid transparent;
-  height: 0px;
-  width: 150px;
-}
-
-#odskills {
-  margin: 0 -50px;
-  padding: 0;
-  list-style: none;
-  max-width: 200px;
-}
-
-#odskills li {
-  float: none;
-  margin: 10px;
-}
-
-.odskills {
-  color: #555556;
-  float: left;
-  margin: -26px 180px;
-  min-width: 200px;
 }
 
 
@@ -337,39 +268,7 @@ OTHER DESIGN SKILLS
 COMPUTER LANGUAGES
 *********************************/
 
-#title6 {
-  font-size: 15px;
-  font-weight: 700;
-  line-height: 17px;
-  color: #fff;
-  text-align: left;
-  margin: 0;
-  padding: 0 10px;
-  border-bottom: 37px solid rgb(16, 130, 65);
-  border-left: 0px solid transparent;
-  border-right: 26px solid transparent;
-  height: 0px;
-  width: 150px;
-}
 
-#cl {
-  margin: 0 -20px;
-  padding: 0;
-  list-style: none;
-  max-width: 200px;
-}
-
-#cl li {
-  float: none;
-  margin: 10px;
-}
-
-.cl {
-  color: #555556;
-  float: left;
-  margin: -26px 180px;
-  min-width: 200px;
-}
 
 
 
