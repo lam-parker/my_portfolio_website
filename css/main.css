@@ -63,6 +63,8 @@ CAROUSEL
 
 
 
+
+
 /*********************************
 HEADING
 *********************************/
@@ -280,6 +282,12 @@ PROFESSIONAL EXPERIENCE
 #rbutton {
   font-size: 14px;
   float: right;
+  margin: 0 235px;
+}
+
+#pbutton {
+  font-size: 14px;
+  float:right;
 }
 
 #com {
@@ -297,6 +305,7 @@ PROFESSIONAL EXPERIENCE
 .img-logo {
   max-width: 15%;
 }
+
 
 
 
