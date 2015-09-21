@@ -6,12 +6,17 @@ $(window).scroll(function() { // This is the line we left out!  Oops :)
 										// appears slowly.
 	   $('.row4').show("slow");
 	} else {
-	    $('.row4').hide();                               
+	    $('.row4').hide();
 	}
 });
 ​
 // Here's the direct CodePen for the guy who created the tutorial I sent you.
-// I will personally be playing with some of his CodePens to implement some 
+// I will personally be playing with some of his CodePens to implement some
 // better animations with jQuery and CSS on my project!
 ​
 // http://codepen.io/SitePoint/
+
+
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});
