@@ -285,21 +285,18 @@ OTHER DESIGN SKILLS
 
 
 /*********************************
-COMPUTER LANGUAGES
-*********************************/
-
-
-
-
-
-/*********************************
 PROFESSIONAL EXPERIENCE
 *********************************/
 
 #rbutton {
   font-size: 14px;
   float: right;
-  margin: 0 235px;
+}
+
+#dbutton {
+  font-size: 14px;
+  float: left;
+  margin: 0 -14px;
 }
 
 #pbutton {
