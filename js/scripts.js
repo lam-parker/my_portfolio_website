@@ -1,3 +1,5 @@
+//software skills scroll
+
 $(window).scroll(function() { // This is the line we left out!  Oops :)
 	if ($(window).scrollTop() > 70 ) { // Scroll slowly down, and you'll see that
 										// when the top position of the scroll bar
@@ -9,6 +11,8 @@ $(window).scroll(function() { // This is the line we left out!  Oops :)
 	    $('.row4').hide();
 	}
 });
+
+
 ​
 // Here's the direct CodePen for the guy who created the tutorial I sent you.
 // I will personally be playing with some of his CodePens to implement some
@@ -16,6 +20,9 @@ $(window).scroll(function() { // This is the line we left out!  Oops :)
 ​
 // http://codepen.io/SitePoint/
 
+
+
+//tootip
 
 $(document).ready(function(){
     $('[data-toggle="tooltip"]').tooltip();
