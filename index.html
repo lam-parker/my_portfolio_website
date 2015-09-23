@@ -240,6 +240,18 @@
       <script src="js/bootstrap.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="js/scripts.js"></script>
+    <script> $(window).scroll(function() { // This is the line we left out!  Oops :)
+      if ($(window).scrollTop() > 70 ) { // Scroll slowly down, and you'll see that
+                        // when the top position of the scroll bar
+                        // is greater than 70 pixels from the top of
+                        // the window, the <div> with class="row4"
+                        // appears slowly.
+         $('.row4').show("slow");
+      } else {
+          $('.row4').hide();
+      }
+    });
+    </script>
 
   </body>
 </html>
