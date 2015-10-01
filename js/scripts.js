@@ -16,7 +16,6 @@ var BOOL = false;
 $(window).scroll(function() {
 
 
-
   var current = $(this).scrollTop();
   // path = 'http://www.anony.ws/i/2015/09/25/text.gif',
   // path = $(this).find('img').attr('src');
