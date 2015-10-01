@@ -1,24 +1,61 @@
-//software skills scroll
+// $(window).scroll(function() {
 
-$(window).scroll(function() { // This is the line we left out!  Oops :)
-	if ($(window).scrollTop() > 70 ) { // Scroll slowly down, and you'll see that
-										// when the top position of the scroll bar
-										// is greater than 70 pixels from the top of
-										// the window, the <div> with class="row4"
-										// appears slowly.
-	   $('.row4').show("slow");
-	} else {
-	    $('.row4').hide();
-	}
-});
+//   var current = $(this).scrollTop(),
+//   // path = $('img').src;
+//   path = 'flash.gif';
+//   visible = $('img').css('opacity') != 0;
+
+//   if (current > 50) {
+//   if (!visible) $('img').attr('src', path).fadeTo(400,1);
+//   }
+//   else if (visible) $('img').fadeTo(0,0);
+// });
+
+var BOOL = false;
+
+$(window).scroll(function() {
 
 
-​
-// Here's the direct CodePen for the guy who created the tutorial I sent you.
-// I will personally be playing with some of his CodePens to implement some
-// better animations with jQuery and CSS on my project!
-​
-// http://codepen.io/SitePoint/
+
+  var current = $(this).scrollTop();
+  // path = 'http://www.anony.ws/i/2015/09/25/text.gif',
+  // path = $(this).find('img').attr('src');
+  // FIXME change hard-coded pixel value to when gif is visible on viewing screen
+	if ((current > 70 /*&& current < 500*/) && !BOOL) {
+
+			$.each($(".test"), function() {
+					console.log('executing .each function');
+					console.log('executing scrollTop()');
+					var setter = $(this).attr('src');
+					console.log('resetting src attr');
+			  		imgsrc = $(this).attr('src', setter);
+			  //console.log(imgsrc);
+			  	  	visible = $('img.test').css('opacity') != 0;
+
+			  		 BOOL = true;
+  			if (!visible) $('img.test').fadeTo(400,1);
+  			else if (visible) $('img.test').fadeTo(0,0);
+  			});
+  		}
+  	else if (current <= 70 /* || current >= 500*/) {
+  			var setter = $(this).attr('src');
+  			imgsrc = $(this).attr('src', setter);
+  			$('img.test').fadeTo (0,0);
+  			BOOL = false;
+  	}
+  		//
+		});
+
+
+	// });
+//   visible = $('img').css('opacity') != 0;
+
+//   if (current > 200) {
+//   	if (!visible) $('img').attr('src', imgsrc).fadeTo(400,1);
+//   }
+//   else if (visible) $('img').fadeTo(0,0);
+// });
+
 
 
 
