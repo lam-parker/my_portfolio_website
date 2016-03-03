@@ -38,10 +38,10 @@
         <ul class="nav navbar-nav navbar-right">
           <li><a href="index.html">Home</a></li>
           <li><a href="proexp.html">Professional Experience</a></li>
-          <li class="active"><a href="edu.html" class="selected">Education</a></li>
+          <li><a href="edu.html">Education</a></li>
           <li><a href="sofskills.html">Software Skills</a></li>
           <li><a href="deskills.html">Design Skills</a></li>
-          <li><a href="contact.php">Contact</a></li>
+          <li class="active"><a href="contact.php" class="selected">Contact</a></li>
         </ul>
       </div><!--/.nav-collapse -->
     </div>
