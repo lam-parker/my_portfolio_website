@@ -50,27 +50,18 @@
 
    <!-- END of NAVIGATION SECTION/ -->
    <div class="container">
-     <div class="jumbotron">
-       <h1>Write Me</h1>
-     <p>If you would like to get in touch with me, please do!</p>
-     <form method="post" action="sent">
-          <table>
-          <tr>
-                <th><label for="name">Name</label></th>
-                <td><input type="text" id="name" name="name" /></td>
-          </tr>
-          <tr>
-                <th><label for="email">Email</label></th>
-                <td><input type="text" id="email" name="email" /></td>
-          </tr>
-          <tr>
-                <th><label for="name">Message</label></th>
-                <td><textarea name="details" id="details"></textarea></td>
-          </tr>
-        </table>
-        <input type="submit" value="Send" />
-     </form>
-     </div>
+
+     <h1 id="title5">Write Me</h1>
+     <p align="center" style="font-size:20px">If you would like to get in touch with me, please do!</p>
+     <form action="" method="post">
+      <fieldset>
+        <input name="name" type="text" placeholder="Full Name">
+        <input name="email" type="email" placeholder="Email Address">
+        <textarea name="msg" placeholder="Your message..."></textarea>
+      </fieldset>
+      <input type="submit" class="button">
+    </form>
+
    </div>
      <div id="wrapper">
        <footer>
