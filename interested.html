@@ -1,4 +1,5 @@
 <!DOCTYPE php>
+
 <html lang="en">
  <head>
    <meta charset="utf-8">
@@ -48,19 +49,29 @@
  </nav>
 
    <!-- END of NAVIGATION SECTION/ -->
-   <div class="jumbotron">
-     <h1 class="ss-title">Write Me</h1><br>
-     <div class="form-group">
-      <label class="col-md-4"></label>
-       <div class="col-md-4 center-block">
-       </div>
+   <div class="container">
+     <div class="jumbotron">
+       <h1>Write Me</h1>
+     <p>If you would like to get in touch with me, please do!</p>
+     <form method="post" action="sent">
+          <table>
+          <tr>
+                <th><label for="name">Name</label></th>
+                <td><input type="text" id="name" name="name" /></td>
+          </tr>
+          <tr>
+                <th><label for="email">Email</label></th>
+                <td><input type="text" id="email" name="email" /></td>
+          </tr>
+          <tr>
+                <th><label for="name">Message</label></th>
+                <td><textarea name="details" id="details"></textarea></td>
+          </tr>
+        </table>
+        <input type="submit" value="Send" />
+     </form>
      </div>
    </div>
-<?php
-
-  echo "Form Goes Here";
-
-?>
      <div id="wrapper">
        <footer>
          <a href="http://facebook.com" target="_blank"><img src="img/footer/facebook-logo.svg" alt="Facebook Logo"></a>
