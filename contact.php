@@ -1,5 +1,4 @@
 <?php
-ob_start();
 //redirect to thank you page
 //if information is not entered properly send to error page
 //submit an confirmation email to me
@@ -16,6 +15,6 @@ ob_start();
   echo $email_body;
   echo "</pre>";
 
-  header("location:http://lam-parker.github.io/my_portfolio_website/sent.html");
+  header("location:sent.html");
 
 ?>
