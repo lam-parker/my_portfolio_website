@@ -7,7 +7,7 @@
   $email = $_POST["email"];
   $msg = $_POST["msg"];
 
-    header('location:sent.html');
+    header('location:http://lam-parker.github.io/my_portfolio_website/sent.html');
 
   echo "<pre>";
   $email_body = "";
@@ -16,5 +16,5 @@
   $email_body .= "Message " . $msg . "\n";
   echo $email_body;
   echo "</pre>";
-  	  
+
 ?>
