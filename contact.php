@@ -1,6 +1,20 @@
 <?php
-var_dump ($_POST);
 //redirect to thank you page
-//submit an confirmation email to me
 //if information is not entered properly send to error page
+//submit an confirmation email to me
+
+  $name = $_POST["name"];
+  $email = $_POST["email"];
+  $msg = $_POST["msg"];
+
+  echo "<pre>";
+  $email_body = "";
+  $email_body .= "Name " . $name . "\n";
+  $email_body .= "Email " . $email . "\n";
+  $email_body .= "Message " . $msg . "\n";
+  echo $email_body;
+  echo "</pre>";
+
+  header("location:sent.html");
+
 ?>
