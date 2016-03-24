@@ -3,9 +3,9 @@
 //if information is not entered properly send to error page
 //submit an confirmation email to me
 
-  $name = $_GET["name"];
-  $email = $_GET["email"];
-  $msg = $_GET["msg"];
+  $name = $_POST["name"];
+  $email = $_POST["email"];
+  $msg = $_POST["msg"];
 
   $email_body = "";
   $email_body .= "Name " . $name . "\n";
