@@ -1,4 +1,5 @@
 <?php
+ob_start();
 //redirect to thank you page
 //if information is not entered properly send to error page
 //submit an confirmation email to me
@@ -7,8 +8,6 @@
   $email = $_POST["email"];
   $msg = $_POST["msg"];
 
-    header('location:http://lam-parker.github.io/my_portfolio_website/sent.html');
-
   echo "<pre>";
   $email_body = "";
   $email_body .= "Name " . $name . "\n";
@@ -16,5 +15,7 @@
   $email_body .= "Message " . $msg . "\n";
   echo $email_body;
   echo "</pre>";
+
+  header("location:sent.html");
 
 ?>
