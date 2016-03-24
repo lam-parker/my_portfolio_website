@@ -7,11 +7,12 @@
   $email = $_POST["email"];
   $msg = $_POST["msg"];
 
+  header("location:sent.html");
+
   $email_body = "";
   $email_body .= "Name " . $name . "\n";
   $email_body .= "Email " . $email . "\n";
   $email_body .= "Message " . $msg . "\n";
 
-  header("location:sent.html");
 
 ?>
