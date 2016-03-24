@@ -16,6 +16,6 @@ ob_start();
   echo $email_body;
   echo "</pre>";
 
-  header("location:sent.html");
+  header("location:http://lam-parker.github.io/my_portfolio_website/sent.html");
 
 ?>
